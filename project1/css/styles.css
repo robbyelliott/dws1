@@ -1,5 +1,27 @@
 /* CSS styles */
 
+/* Layout - Columns  */
+/* width, float, padding, margin, clear
+*/
+
+.column1of2 {
+float: left;
+width: 650px;
+margin: 10px;
+padding: 5px;
+clear: left;
+}
+
+.column2of2 {
+float: left;
+width: 300px;
+margin: 10px;
+padding: 5px;
+}
+
+
+
+
 /* Main Style information */
 body {
 	background-color: #FFFFFF; 
@@ -11,8 +33,9 @@ body {
 			link: http://fonts.googleapis.com/css?family=Ubuntu
 			}
 
+/* Commenting out the original layout.*/
+
 div {
-		width: 960px;
 		border-width: 2px;
 		border-color: #000000;
 		padding: 35px;
@@ -22,7 +45,6 @@ div {
 		-moz-border-radius: 10px;
 		box-shadow: -2px -3px #777777;
 }
-
 
 /* Heading and body Style information */
 
