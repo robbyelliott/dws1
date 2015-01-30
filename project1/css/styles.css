@@ -4,7 +4,7 @@
 /* width, float, padding, margin, clear
 */
 
-.column1of2 {
+header {
 	float: left;
 	width: 55%;
 	margin: 1em;
@@ -12,9 +12,17 @@
 	clear: left;
 }
 
-.column2of2 {
+article {
 	float: left;
-	width: 25%;
+	width: 40%;
+	margin: 1em;
+	padding: .5em;
+	clear: left;
+}
+
+aside {
+	float: left;
+	width: 30%;
 	margin: 1em;
 	padding: .5em;
 }
@@ -47,6 +55,7 @@ body {
 div {
 		border-width: 2px;
 		border-color: #000000;
+		opacity: 0.9;
 		padding: 35px;
 		margin: 10px auto;
 		border-radius: 10px;
@@ -85,10 +94,14 @@ body {
 	}
 
 li {
-	margin: 5px;
+	margin: 2%;
 	display: inline;
-	width: 500px;
+	width: 50%;
 	text-align: left;
+	}
+
+p {
+	line-height: 1.4em;
 	}
 
 /* Link Style information */
@@ -108,3 +121,66 @@ a:hover {
 a:active {
 	color: #679394;
 		}
+		
+		
+/* List Style */
+
+ol {
+	list-style-type: upper-alpha;
+	}
+	
+
+/* Table Properties */
+
+table {
+	width: 250px;
+		}
+		
+th, td {
+	padding: 4px 8px 8px 8px;
+	text-align: center;
+	}
+	
+th {
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	font-size: 79%;
+	border-bottom: 1px solid #111111;
+	border-top: 1px solid #999;
+	text-align: center;
+	}
+
+tr.even {
+	background-color: #ffffff;
+	}
+	
+tr:hover {
+	background-color: #f5ec5c;
+	}
+
+
+/* Form Properties */
+
+
+form {
+	width: 300px;
+	background-color: #ffffff;
+	padding: 4px 8px 8px 8px;
+	text-align: left;
+	font-size: 82%;
+		}
+
+input.submit:hover {
+	background-color: #f5ec5c;
+		}
+
+input.text:focus {
+	color: #000000;
+		}
+
+
+
+
+
+
+
