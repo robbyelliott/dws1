@@ -1,0 +1,81 @@
+/* CSS styles */
+
+/* Main Style information */
+body {
+	background-color: #FFFFFF; 
+	 opacity: 1
+	 }
+	 
+@font-face {
+			font-family:Ubuntu;
+			link: http://fonts.googleapis.com/css?family=Ubuntu
+			}
+
+div {
+		width: 960px;
+		border-width: 2px;
+		border-color: #000000;
+		padding: 35px;
+		margin: 10px auto;
+		background-color: #79B397; 
+		border-radius: 10px;
+		-moz-border-radius: 10px;
+		box-shadow: -2px -3px #777777;
+}
+
+
+/* Heading and body Style information */
+
+h1, h2 {
+	color: #FFCAAD;
+		}
+
+h1, h2 {
+		font-family: Ubuntu, Arial, Sans-Serif;
+		text-shadow: 2px 1px 2px #000000;
+		}
+
+h1 {
+	font-size: 38px;
+	font-weight: Bold;
+	}
+
+h2 {
+	font-size: 24px;
+	font-style: Italic;
+	
+	}
+h3 {
+	color: #000000;
+		}
+
+body {
+	font-family: Arial, Sans-Serif;
+	font-size: 80%;
+	text-align: left;
+	}
+
+ul li {
+	margin: 5px;
+	display: inline;
+	width: 500px;
+	text-align: left;
+	}
+
+/* Link Style information */
+
+a:link {
+	color: #000000;
+		}
+		
+a:visited {
+	color: #997B4C;
+		}
+		
+a:hover {
+	color: #91CCCB;
+		}
+		
+a:active {
+	color: #679394;
+		}
