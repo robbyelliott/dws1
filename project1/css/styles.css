@@ -2,7 +2,7 @@
 
 /* Main Style information */
 body {
-	 background-color: #FFFFFF; 
+	 background: #FFFFFF; 
 	 opacity: 1;
 	 width: 80%;
 	 }
@@ -11,13 +11,18 @@ body {
 			font-family:Ubuntu, Arial, Sans-Serif;
 		
 			}
+.wrapper {
+	background: linear-background (#e9f6fd, #d3eefb);
+
+	}
+
 
 div {
 		
 		margin: 1%;
 		border-width: 5px;
 		border-color: #000000;
-		background-color: #79B397; 
+	    background-color: #79B397;
 		border-radius: 10px;
 		-moz-border-radius: 4;
 		box-shadow: -2px -3px #777777;
@@ -28,6 +33,28 @@ div {
 	width: 40%;
 	padding: 5px;
 	}
+
+/* Background Images  */
+#images_column {
+	background-image: url ("../images/pattern_038.gif");
+	background-repeat: no repeat;
+	background-position: center top;
+
+	}
+
+#secondary {
+	background-image: url ("../images/light-tile.gif");
+	background-repeat: repeat y;
+	background-position: center left;
+
+	}
+
+/* Gradient Background */
+
+
+
+
+
 
 
 /* Heading and body Style information */
