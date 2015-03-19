@@ -2,8 +2,9 @@
 
 /* Main Style information */
 body {
-	background-color: #FFFFFF; 
-	 opacity: 1
+	 background-color: #FFFFFF; 
+	 opacity: 1;
+	 width: 850px;
 	 }
 	 
 @font-face {
@@ -12,16 +13,22 @@ body {
 			}
 
 div {
-		width: 960px;
-		border-width: 2px;
+		
+		border-width: 1px;
 		border-color: #000000;
-		padding: 35px;
-		margin: 10px auto;
+		margin: 10px;
 		background-color: #79B397; 
-		border-radius: 10px;
-		-moz-border-radius: 10px;
+		border-radius: 2px;
+		-moz-border-radius: 2;
 		box-shadow: -2px -3px #777777;
-}
+	}	
+
+ #secondary, #images_column{
+	float:left;
+	width: 400px;
+	padding: 2px;
+	
+	}
 
 
 /* Heading and body Style information */
@@ -60,7 +67,7 @@ p {
 		}
 
 ul li {
-	margin: 5px;
+	margin: 10px;
 	display: inline;
 	width: 500px;
 	text-align: left;
