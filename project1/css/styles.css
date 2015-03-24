@@ -11,7 +11,7 @@ body {
 			font-family:Ubuntu, Arial, Sans-Serif;
 		
 			}
-.wrapper {
+#wrapper {
 	background: linear-background(#e9f6fd, #d3eefb);
 
 	}
