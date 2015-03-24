@@ -11,10 +11,11 @@ body {
 			font-family:Ubuntu, Arial, Sans-Serif;
 		
 			}
-#wrapper {
-	background: linear-background(#e9f6fd, #d3eefb);
+/* #wrapper {
+	background-image: -webkit-linear-gradient(#e9f6fd, #d3eefb);
+	
 
-	}
+	} */
 
 
 div {
@@ -22,7 +23,8 @@ div {
 		margin: 1%;
 		border-width: 5px;
 		border-color: #000000;
-	    background-color: #79B397;
+	    /*background-color: #79B397;*/
+		background-image: -webkit-linear-gradient(#e9f6fd, #d3eefb);
 		border-radius: 10px;
 		-moz-border-radius: 4;
 		box-shadow: -2px -3px #777777;
