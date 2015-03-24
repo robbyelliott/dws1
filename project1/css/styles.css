@@ -12,7 +12,7 @@ body {
 		
 			}
 .wrapper {
-	background: linear-background (#e9f6fd, #d3eefb);
+	background: linear-background(#e9f6fd, #d3eefb);
 
 	}
 
@@ -36,14 +36,14 @@ div {
 
 /* Background Images  */
 #images_column {
-	background-image: url ("../images/pattern_038.gif");
+	background-image: url("../images/pattern_038.gif");
 	background-repeat: no repeat;
 	background-position: center top;
 
 	}
 
 #secondary {
-	background-image: url ("../images/light-tile.gif");
+	background-image: url("../images/light-tile.gif");
 	background-repeat: repeat y;
 	background-position: center left;
 
@@ -95,6 +95,7 @@ p {
 ul li {
 	display: inline;
 	text-align: left;
+	padding: 5px
 	}
 
 /* Link Style information */
