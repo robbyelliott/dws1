@@ -10,9 +10,8 @@ body {
 @font-face {
 			font-family:Ubuntu, Arial, Sans-Serif;
 		
-			}
-			
-			
+			}		
+/* Wrapper for page */			
 .wrapper {
 	
 	width: 960px;
@@ -25,10 +24,8 @@ body {
 	border-color: #000000;
 	
 	}
-
-
 	
-	
+/* HTML 5 Sections */	
  section{
 	float:left;
 	width: 56%;
@@ -48,7 +45,7 @@ aside{
 	border-radius: 10px;
 	-moz-border-radius: 4;
 	box-shadow: -2px -3px #777777;
-	margin: 1%;
+	margin: 2%;
 	border-width: 5px;
 	border-color: #000000;
 	background-image: -webkit-linear-gradient(#e9f6fd, #d3eefb);
@@ -58,6 +55,7 @@ nav, footer {
 	clear: both;
 	background-color: #fff;
 	height: 30px;
+	padding: 5px;
 	}
 	
 
@@ -68,6 +66,37 @@ section {
 	background-position: center top;
 
 	}
+	
+	
+/* Table Properties */
+table {
+	width: 150px;
+	background-color: #fff;
+	}
+
+th, td {
+	padding: 7px 10px 10px 10px;
+	}
+
+th {
+	font-size: 95%;
+	text-transform: uppercase;
+	border-bottom: 2px solid #000;
+	border-top: 1px solid #000;
+	text-align: left;
+	}
+
+tr.even {
+	background-color: #efefef;
+	}
+
+tr:hover {
+	background-color: #e9f6fd;
+	}
+	
+/* Form Styles */
+
+
 
 
 /* Heading and body Style information */
