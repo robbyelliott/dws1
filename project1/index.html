@@ -46,7 +46,7 @@
 				</ol>
 	
 	<!-- Table for Conversion -->
-		<h3 id="hooks">Hook Conversion Chart</h3>
+		<h3 id="hooks_conv">Hook Conversion Chart</h3>
 		<table>
 			<tr>
 				<th scope="col">US</th>
@@ -80,12 +80,14 @@
 			Skeins and balls are generally sold with a yarn band, a label that describes the yarn's weight, length, dye lot, fiber content, washing instructions, suggested needle size, likely gauge, etc. 
 			It is a common practice to save the yarn band for future reference, especially if additional skeins must be purchased. Crocheters generally ensure that the yarn for a project comes from a single dye lot.
 			</p>
+		
+	<!-- Form -->	
 			<h2>Have A Question? </h2>
 		<form>
 			<div>
-				<label for="name" class="title">Topic:</label> 
+				<label for="topics" class="title">Topic:</label> 
 			</div>
-			<select name="topics">
+			<select name="topics" id="topics">
 			
 			<option value="yarn">Yarn</option>
 			<option value="hooks">Hooks</option>
@@ -95,24 +97,24 @@
 			<div>
 				<label for="name" class="title">Name: </label>
 			</div>	
-				<input type="text" name="name" size="15"><br/>
+				<input type="text" name="name" size="15" id="name"><br/>
 			<div>
 				<label for="email" class="title">Email: </label>
 			</div>		
-				<input type="email" name="email" /><br/>
+				<input type="email" name="email" id="email"><br/>
 			
-			<div>
-				<label for="skill" class="title">Skill Level:</label>
+			<div class="title">
+				Skill Level:
 			</div>
 				<input id="beginner" type="radio" name="skill" value="b">
 				<label for="beginner">Beginner</label>
-				<input id="intermediate" type="radio" name="skill"value="i">
+				<input id="intermediate" type="radio" name="skill" value="i">
 				<label for="intermediate">Intermediate</label>
-				<input id="advanced" type="radio" name="skill"value="a">
+				<input id="advanced" type="radio" name="skill" value="a">
 				<label for="advanced">Advanced</label><br/>
 					
 			<label for="question" class="title">Question: </label>
-			<textarea name="question" cols="20" rows="4">What's your question?</textarea><br/>
+			<textarea name="question" cols="20" rows="4" id="question">What's your question?</textarea><br/>
 			<input type="submit" value="Sumbit My Quesion" />
 		</form>	
 	</section>
