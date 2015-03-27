@@ -80,8 +80,41 @@
 			Skeins and balls are generally sold with a yarn band, a label that describes the yarn's weight, length, dye lot, fiber content, washing instructions, suggested needle size, likely gauge, etc. 
 			It is a common practice to save the yarn band for future reference, especially if additional skeins must be purchased. Crocheters generally ensure that the yarn for a project comes from a single dye lot.
 			</p>
-		
+			<h2>Have A Question? </h2>
+		<form>
+			<div>
+				<label for="name" class="title">Topic:</label> <select name="topics">
+			</div>
+			<option value="yarn">Yarn</option>
+			<option value="hooks">Hooks</option>
+			<option value="projects">Projects</option>
+			<option value="general">General</option>
+			</select> <br/>
+			<div>
+				<label for="name" class="title">Name: </label>
+			</div>	
+				<input type="text" name="name" size="15"><br/>
+			<div>
+				<label for="email" class="title">Email: </label>
+			</div>		
+				<input type="email" name="email" /><br/>
+			
+			<div>
+				<label for="skill" class="title">Skill Level:</label>
+			</div>
+				<input id="beginner" type="radio" name="skill" value="b">
+				<label for="beginner">Beginner</label>
+				<input id="intermediate" type="radio" name="skill"value="i">
+				<label for="intermediate">Intermediate</label>
+				<input id="advanced" type="radio" name="skill"value="a">
+				<label for="advanced">Advanced</label><br/>
+					
+			<label for="question" class="title">Question: </label>
+			<textarea name="question" cols="20" rows="4">What's your question?</textarea><br/>
+			<input type="submit" value="Sumbit My Quesion" />
+		</form>	
 	</section>
+	
 <!-- Gallery -->
 		<aside>
 			<h2 id="images">Project Images</h2>
