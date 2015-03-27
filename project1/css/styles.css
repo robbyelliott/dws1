@@ -100,7 +100,9 @@ tr:hover {
 form {
 	background-color: #f6f6f1;
 	width:400px ;
-
+	margin: 1px;
+	border-width: 5px;
+	border-color: #fff;
 	}
 
 .title {
@@ -108,10 +110,41 @@ form {
 	width: 75px;
 	text-align: left;
 	padding-right: 5px;
+	font-size:95%;
 	
 	}
+/* Hover and Focus */
 
+input[type="select"]:focus, input[type="select"]:hover {
+	background-color: #d0e2f0;
+	border: 1px solid #999;
+	}
 
+input[type="email"]:focus, input[type="email"]:hover {
+	background-color: #d0e2f0;
+	border: 1px solid #999;
+	}
+
+input[type="text"]:focus, input[type="text"]:hover {
+	background-color: #d0e2f0;
+	border: 1px solid #999;
+	}
+
+input[type="radio"]:focus, input[type="radio"]:hover {
+	background-color: #d0e2f0;
+	border: 1px solid #999;
+	}
+
+input[type="textarea"]:focus, input[type="textarea"]:hover {
+	background-color: #d0e2f0;
+	border: 1px solid #999;
+	}
+
+input[type="submit"]:focus, input[type="submit"]:hover {
+	background-color: #d0e2f0;
+	border: 1px solid #999;
+	}
+	
 /* Heading and body Style information */
 
 h1, h2 {
