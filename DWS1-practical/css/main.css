@@ -10,41 +10,45 @@ body {
 }
 
 
-/*------ Header and Nav -----*/
+/*------ Header  -----*/
 
 header {
-	background-image: url("../images/header-bg.jpg");
-	width: 960px;
+	background: url("../images/logo.gif")no-repeat 64px, 
+		url("../images/header-bg.jpg") no-repeat top center;
 	height: 210px;
-	clear: both;
 }
 
-nav {
-	
+
+/*------ Nav -----*/
+
+nav{
+	text-align: right;
+	margin: 84px 64px 0px 0px;
+}
+
+
+ul {
+	list-style: none;
+	text-decoration: none;
+
+}
+
+
+ul li {
+	display: inline;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding: 5px;
+
 }
 
 
 
 /*------ Main Content -----*/
 
-main-content {
-	background-image: url("../images/main-content-bg.jpg");
-	background-repeat: repeat-x;
-	width: 890px;
-	
-}
-
-banner{
-	background-image: url("../images/banner.jpg");
-	width: 890px;
-	height: 200px;
-
-}
-
-section{
 
 
-}
+
 
 
 /*------ Section -----*/
@@ -64,6 +68,32 @@ section{
 
 
 
-
-
 /*------ Fonts -----*/
+
+h1 {
+	text-indent: -9999px;
+	width: 960px;
+	magin: 0px;
+}
+
+/*------ Link Style -----*/
+
+a:link {
+	color: #423b2e;
+	text-decoration: none;
+	}
+		
+a:visited {
+	color: #7c1d04;
+	text-decoration: none;
+	}
+		
+a:hover {
+	color: #bf3102;
+	text-decoration: none;
+	}
+		
+a:active {
+	color: #bf3102;
+	text-decoration: none;
+	}
