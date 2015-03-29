@@ -1,4 +1,5 @@
 /*------ Document -----*/
+
 body {
 	margin: 0 auto;
 	padding: 0;
@@ -11,16 +12,39 @@ body {
 
 /*------ Header and Nav -----*/
 
+header {
+	background-image: url("../images/header-bg.jpg");
+	width: 960px;
+	height: 210px;
+	clear: both;
+}
 
+nav {
+	
+}
 
 
 
 /*------ Main Content -----*/
 
+main-content {
+	background-image: url("../images/main-content-bg.jpg");
+	background-repeat: repeat-x;
+	width: 890px;
+	
+}
+
+banner{
+	background-image: url("../images/banner.jpg");
+	width: 890px;
+	height: 200px;
+
+}
+
+section{
 
 
-
-
+}
 
 
 /*------ Section -----*/
@@ -37,8 +61,6 @@ body {
 
 
 
-
-/*------ Image -----*/
 
 
 
