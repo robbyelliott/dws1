@@ -16,6 +16,8 @@ header {
 	background: url("../images/logo.gif")no-repeat 64px, 
 		url("../images/header-bg.jpg") no-repeat top center;
 	height: 210px;
+	clear:both;
+	
 }
 
 
@@ -46,27 +48,78 @@ ul li {
 
 /*------ Main Content -----*/
 
+#main-content{
+	clear:both;
+	background-image: url("../images/main-content-bg.jpg");
+	background-repeat: repeat-y;
+	height: 800px;
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
 
+}
 
-
-
+#banner{
+	background-image: url("../images/banner.jpg");
+	height: 210px;
+	width: 890px;
+	background-position: center center;
+	margin: auto;
+}
 
 /*------ Section -----*/
 
+#column1of2{
+	float: left;
+	width: 260px;
+	padding: 25px;
+	margin: 0px 22px 45px 64px ;
+}
 
 
+#column1of2 p{
+	border-bottom: 1px solid #000;
+}
 
 
+#column2of2{
+	float: left;
+	width: 450px;
+	padding: 25px;
+	margin: 0px 0px 45px 22px;
+}
 
 
+#column2of2.page-flip{
+	background-image: url("../images/page-flip.png");
+	background-repeat: no-repeat;
+	background-position: left bottom;
+	padding: 45px 0px 45px 11px;
+}
+
+
+#column1of2.page-flip{
+	background-image: url("../images/page-flip.png");
+	background-repeat: no-repeat;
+	background-position: left bottom;
+	padding: 45px 0px 45px 11px;
+}
+
+/*------ Section Images -----*/
+img{
+	border: 5px solid #fff;
+	margin: 5px;
+	text-align: middle;
+	
+}
 
 /*------ Footer -----*/
-
-
-
-
-
-
+footer{
+	background-image: url("../images/footer-bg.jpg");
+	background-repeat: no-repeat;
+	height: 92px;
+	overflow:hidden;
+}
 
 /*------ Fonts -----*/
 
@@ -75,6 +128,22 @@ h1 {
 	width: 960px;
 	magin: 0px;
 }
+
+h2 {
+	color: #423b2e;
+	font-size: 1.5em;
+	border-bottom: 1px solid #000;
+
+}
+
+footer{
+	color: #423b2e;
+	font-size: 0.9em;
+	text-align: center;
+	
+}
+
+
 
 /*------ Link Style -----*/
 
